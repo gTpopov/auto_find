@@ -1,0 +1,217 @@
+.block-lf {
+    border-right: 1px solid #dedede;
+    padding: 10px 15px 10px 130px;
+    background: url("/images/icon-uplod.png") no-repeat 0 0;
+}
+.block-lf h3 {
+    margin: 0;
+    text-shadow:0 1px #FEFEFE;
+    color: #333;
+}
+abbr {
+    border-bottom: dotted 1px #b6b6b6;
+    color: #0088CC;
+}
+
+ul.unstyled {
+    font-size: 14px;
+    margin: 10px 0;
+    padding-bottom: 10px;
+    border-bottom: 5px solid #DEDEDE;
+}
+
+
+/*** Help block ***/
+.accordion h4 {
+    font-size: 16px;
+    padding: 9px 0 9px 48px;
+    background: #FAFAFA url('/images/icon-p-m.png') no-repeat 13px 6px;
+    cursor: pointer;
+    margin:0;
+    border-top: 1px solid #DDDDDD;
+}
+.accordion h4.active {
+    background: rgb(68, 68, 68) url('/images/icon-p-m.png') no-repeat 13px -27px;
+    color: #FFFFFF;
+}
+.accordion .hover-active {
+    background-color:#F1F1F1;
+}
+.accordion div {
+    margin: 0;
+    padding: 5px 10px 15px 48px;
+    background: rgb(68, 68, 68);
+    color: #FFFFFF;
+    font-size: 12px;
+}
+.accordion div a {font-size: 12px;}
+.accordion div a:hover {
+    color: #FFFFFF;
+}
+/*** - end --- ***/
+
+/*** Tooltip help ***/
+.summary img, .table thead th {
+    cursor: pointer;
+}
+
+.tooltipContent {
+    width: 250px;
+    position: absolute;
+    top: 25px;
+    left: 0;
+    background: #ffffff;
+    color: #666;
+    border-color: #bbb #bbb #a8a8a8;
+    border-radius: 2px;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    font-size: 12px;
+    z-index: 9999;
+    display: none;
+}
+
+/*** end tooltip ***/
+
+
+
+
+/*** Style for nav menu ***/
+.nav-tabs.nav-stacked li a.upload {
+    background: url('/images/sprite-price.png') 5px 10px no-repeat;
+}
+.nav-tabs.nav-stacked li a.edit {
+    background: url('/images/sprite-price.png') 5px -16px no-repeat;
+}
+.nav-tabs.nav-stacked li a.delete {
+    background: url('/images/sprite-price.png') 5px -42px no-repeat;
+}
+.nav-tabs.nav-stacked li a.price {
+    background: url('/images/sprite-price.png') 5px -125px no-repeat;
+}
+.nav-tabs.nav-stacked li a.preview {
+    background: url('/images/sprite-price.png') 5px -68px no-repeat;
+}
+.nav-tabs.nav-stacked li a.export {
+    background: url('/images/sprite-price.png') 5px -94px no-repeat;
+}
+
+
+.nav-tabs.nav-stacked > li > a {
+    border:1px solid #FFFFFF;
+    padding-left: 30px;
+}
+.nav-tabs li > a:hover {
+    color: #626262;
+    border-color: #FFFFFF;
+}
+.nav-tabs > li > a.active {
+    font-weight: bold;
+    color: #222222;
+}
+.nav-tabs.nav-stacked li > a:hover {
+    background-color:#FFFFFF;
+    border:1px solid #FFFFFF;
+}
+
+/*** Style upload price block ***/
+.block-lf .upload-price-block {
+    padding-top: 10px;
+    text-align: left;
+}
+
+/*********************/
+.block-lf .upload-price-block .qq-upload-button {
+    width: 120px;
+    background-color: #006DCC;
+    text-shadow: none;
+    padding: 5px 0;
+}
+.block-lf .btn:hover { color: #FFFFFF; }
+.block-lf .upload-price-block .qq-upload-list {
+    list-style: none;
+    margin: 3px 0;
+    font-size: 11px;
+    color: #af0000;
+    margin-top: 7px;
+    padding-top: 3px;
+}
+.block-lf .upload-price-block .qq-upload-list .qq-upload-file,
+.block-lf .upload-price-block .qq-upload-list span {
+    color: #066aa6;
+    /*margin-left: 15px;*/
+}
+/*.block-lf .qq-uploader {margin-left: 45px;}*/
+.block-lf .upload-price-block .qq-upload-list span.success {
+    background: url("/images/icon-success.png") no-repeat 0 0;
+    padding: 3px 18px 3px 20px;
+    margin-left: 0;
+}
+.block-lf .qq-uploader .per-load {
+    font-size: 12px;
+    color: #066aa6;
+    width: 100%;
+    position: absolute;
+    top: 20px;
+    left: 0;
+}
+.block-lf .qq-uploader .per-load .progress-striped {
+    display: none;
+}
+.block-lf .progress {
+    border-radius: 0;
+    border: 1px solid #ffffff;
+}
+.block-lf .progress-striped .bar {
+    background-image:url('/images/progress-bar.gif');
+    background-color: #f8f8f8;
+    background-size:auto;
+    border: 1px solid #ffffff;
+
+}
+
+/* Landscape - phone */
+@media (max-width: 480px){
+    .block-lf {
+        background-image: none;
+        padding: 10px 15px 10px 15px;
+    }
+    .block-rg {
+        padding: 0 15px;
+        border-top: 1px solid #DEDEDE;
+    }
+    .nav-tabs.nav-stacked > li > a {
+        border:1px solid #ffffff;
+    }
+    p,ul,.modal {font-size: 12px;}
+}
+@media (min-width: 979px) {
+    .modal {
+        width: 970px;
+        margin-left: -485px;
+
+    }
+}
+
+/* Modal window ***/
+.modal.fade.in { top: 30%; }
+.modal-backdrop, .modal-backdrop.fade.in { opacity: 0.5; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

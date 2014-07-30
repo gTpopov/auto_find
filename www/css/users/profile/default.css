@@ -1,0 +1,159 @@
+.block-lf {
+    background: url("/images/icon-profile.png") no-repeat 0 0;
+    border-right: 1px solid #f4f4f4;
+    padding: 10px 15px 10px 135px;
+}
+.block-lf h3 {
+    text-shadow: 0 1px #fefefe;
+    margin: 0 0 0 2.5641%;
+    color: #333;
+}
+.block-lf .span2 {
+    position: relative;
+}
+.block-lf section {
+    border-bottom: 1px solid #d8d8d8;
+    margin-bottom: 35px;
+    box-shadow: 2px 2px 3px #d8d8d8;
+    position: relative;
+    padding-right: 10px;
+}
+.block-lf section .dl-horizontal dt {
+    width: 90px;
+}
+.block-lf section .dl-horizontal dd {
+    margin-bottom: 5px;
+}
+.block-lf section .dl-horizontal dd .label {
+    margin-left: 25px;
+}
+.block-lf section a {
+    padding: 3px 5px;
+    text-decoration: none;
+    font-size: 13px;
+    border-bottom: 1px dotted #d9d9d9;
+}
+.block-lf section a span {
+    margin: 3px 0 0 3px;
+}
+.block-lf section a:hover {
+    background: #f5f5f5;
+    border-bottom: none;
+}
+.block-lf section .tool-tip {
+    position: absolute;
+    top: 25px;
+    right: 0;
+    width: 270px;
+    border: 1px solid #d8d8d8;
+    border-radius: 3px;
+    background: #ffffff;
+    z-index: 999;
+    font-size: 11px;
+    padding: 0 3px;
+    box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.5);
+    line-height: 2;
+    display: none;
+}
+/*** Style - edit persons data ***/
+.block-lf #personaDataEdit,
+.block-lf #securityDataEdit,
+.block-lf #emailDataEdit,
+.block-lf #logoDataEdit {
+    color: #7f7f7f;
+    display: none;
+}
+.block-lf #personaDataEdit .table td,
+.block-lf #securityDataEdit .table td,
+.block-lf #emailDataEdit .table td,
+.block-lf #logoDataEdit .table td {
+    vertical-align: middle;
+    border-top: none;
+    padding: 5px 8px;
+}
+.block-lf #personaDataEdit .table td.col-first,
+.block-lf #securityDataEdit .table td.col-first,
+.block-lf #emailDataEdit .table td.col-first,
+.block-lf #logoDataEdit .table td.col-first {
+    width: 80px;
+    text-align: right;
+    padding-right:5px;
+}
+.block-lf #personaDataEdit .table td.col-first label,
+.block-lf #securityDataEdit .table td.col-first label,
+.block-lf #emailDataEdit .table td.col-first label,
+.block-lf #logoDataEdit .table td.col-first label {
+    font-weight: bold;
+}
+.block-lf #personaDataEdit .table td .field,
+.block-lf #securityDataEdit .table td .field,
+.block-lf #emailDataEdit .table td .field,
+.block-lf #logoDataEdit .table td .field {
+    margin: 0;
+    border-radius: 1px;
+    color: #838383;
+    font-size: 12px;
+    width: 270px;
+}
+.block-lf #personaDataEdit .table td .list-country {
+    width: 285px;
+    margin-bottom: 0;
+    border-radius: 1px;
+}
+.block-lf #personaDataEdit .table td option { margin: 5px 0;}
+form .errorMessage {
+    margin: 0;
+    color: #AF0000;
+    font-size: 11px;
+}
+/*** Style for upload images ***/
+.block-lf #logoDataEdit .list-formats {
+    width: 175px;
+    font-size: 12px;
+    margin-top: 5px;
+}
+.block-lf #logoDataEdit .qq-upload-list {
+    margin: 3px 0;
+    list-style: none;
+    color: #AF0000;
+
+}
+.block-lf #logoDataEdit .qq-upload-list li {
+    font-size: 11px;
+}
+.block-lf #logoDataEdit .qq-upload-button {
+    background-color: #006dcc;
+    padding: 5px 0;
+    width: 90px;
+}
+
+/* Landscape - phone */
+@media (max-width: 480px), (max-width: 767px){
+    .block-lf {
+        background-image: none;
+        padding: 10px 15px 10px 15px;
+    }
+    .block-lf h3 { margin: 0; }
+    .block-lf #personaDataEdit .table td.col-first,
+    .block-lf #securityDataEdit .table td.col-first,
+    .block-lf #emailDataEdit .table td.col-first,
+    .block-lf #logoDataEdit .table td.col-first {
+        width: auto;
+    }
+    .block-lf #personaDataEdit .table td .field,
+    .block-lf #securityDataEdit .table td .field,
+    .block-lf #emailDataEdit .table td .field,
+    .block-lf #logoDataEdit .table td .field {
+        width: 185px;
+    }
+    .block-lf #personaDataEdit .table td .list-country { width: 198px; }
+    .block-lf section .dl-horizontal dt,p { font-size: 12px; }
+
+    .block-lf #personaDataEdit .table td.col-first label,
+    .block-lf #securityDataEdit .table td.col-first label,
+    .block-lf #emailDataEdit .table td.col-first label,
+    .block-lf #logoDataEdit .table td.col-first label {
+        font-size: 12px;
+    }
+    .block-rg {padding: 0 15px;}
+}

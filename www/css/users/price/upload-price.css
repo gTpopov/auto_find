@@ -1,0 +1,43 @@
+.currency-price {
+    border-collapse: collapse;
+}
+.currency-price td {
+    padding: 5px 12px 5px 12px;
+    width: 22px;
+    height: 15px;
+}
+.currency-price td span {
+    font-size: 12px;
+}
+.currency-price td img {
+    margin-left: 5px;
+}
+
+li form {
+    margin: 2px 0;
+}
+
+input[type="radio"] {
+    display:none;
+}
+input[type="radio"] + label span {
+    display:inline-block;
+    width:21px;
+    height:21px;
+    margin:-1px 4px 0 5px;
+    vertical-align:middle;
+    background:url('/images/radio-large.png') center top no-repeat;
+    cursor:pointer;
+}
+input[type="radio"]:checked + label span {
+    background:url('/images/radio-large.png') center -21px no-repeat;
+}
+
+/* Landscape - phone */
+@media (max-width: 480px) {
+    .currency-price td {
+        padding-right:2px;
+
+    }
+
+}

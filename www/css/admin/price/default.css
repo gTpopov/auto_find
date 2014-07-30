@@ -1,0 +1,48 @@
+.block-lf {
+    border: 1px solid #dedede;
+    padding: 10px 15px 10px 10px;
+}
+.block-lf h3 {
+    margin: 0;
+    text-shadow:0 1px #FEFEFE;
+}
+.block-lf .grid-view table.items td {
+    text-align: center;
+    padding: 5px 2px;
+}
+.block-lf a {
+    text-decoration: none;
+}
+
+
+.block-lf .hidden {
+    visibility: visible;
+}
+.pagination .selected {
+    font-weight: bold;
+    color: #000000;
+}
+
+.block-rg {
+    padding: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

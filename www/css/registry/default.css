@@ -1,0 +1,63 @@
+h3 {
+    margin: 0 0 10px 15px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #e2e2e2;
+}
+form {
+    margin: 0 0 0 15px;
+    width:260px;
+    padding: 0 15px;
+    border: 1px dotted #DDDDDD;
+}
+form .row { margin: 0;}
+form .agreement {text-align: center; margin-top: 10px;}
+form label { margin:7px 0 0 0; font-size: 12px;}
+form label span { color: #0044cc;}
+form .field {
+    border-radius: 1px;
+    width: 246px;
+    margin-bottom:0 ;
+    font-size: 12px;
+    color: #838383;
+}
+form .list-country {
+    font-size: 12px;
+    border-radius: 1px;
+    width: 257px;
+    margin: 0;
+}
+form .list-country option { margin: 5px 0;}
+form .errorMessage {
+    margin: 0;
+    color: #AF0000;
+    font-size: 11px;
+}
+form .buttons {
+    margin-top: 10px;
+    padding: 10px 0;
+    border-top: 1px dotted #aeaeae;
+}
+form a {
+    font-size: 12px;
+    color: rgba(53, 98, 193, 0.75);
+}
+form .btn {
+    margin: 0 0 0 0;
+    float: left;
+    border-radius: 1px;
+}
+form .pull-left { margin: 0 0 0 30px;}
+
+form .alert {margin: 10px 0 0 0;}
+form .alert-success .close {top: -52px;}
+form .alert-error .close {top: -32px;}
+
+
+
+
+
+
+
+
+
+

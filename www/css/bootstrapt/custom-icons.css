@@ -1,0 +1,44 @@
+/* Интеграция с Twitter Bootstrap */
+[class^="icn-"],
+[class*=" icn-"] {
+    display: inline-block;
+    width: 17px;
+    height: 16px;
+    *margin-right: .3em;
+    line-height: 14px;
+    vertical-align: text-top;
+    background-image: url("/images/icons-sprite.png"); /* Указываем путь к сгенерированному спрайту */
+    background-position: 14px 14px;
+    background-repeat: no-repeat;
+}
+[class^="icn-"]:last-child,
+[class*=" icn-"]:last-child {
+    *margin-left: 0;
+}
+
+.icn-document-horizontal-text{ background-position: 0 0; width: 16px; height: 16px; }
+.icn-document-medium{ background-position: -21px 0; width: 16px; height: 16px; }
+.icn-document{ background-position: -42px 0; width: 16px; height: 16px; }
+.icn-edit-alignment-center{ background-position: -63px 0; width: 16px; height: 16px; }
+.icn-edit-alignment-justify-distribute{ background-position: -84px 0; width: 16px; height: 16px; }
+.icn-edit-alignment-justify{ background-position: -105px 0; width: 16px; height: 16px; }
+.icn-edit-alignment-right{ background-position: -126px 0; width: 16px; height: 16px; }
+.icn-edit-alignment{ background-position: -147px 0; width: 16px; height: 16px; }
+.icn-information-white{ background-position: -168px 0; width: 16px; height: 16px; }
+.icn-information{ background-position: -189px 0; width: 16px; height: 16px; }
+.icn-magnifier--plus{ background-position: -210px 0; width: 16px; height: 16px; }
+.icn-magnifier-left{ background-position: -231px 0; width: 16px; height: 16px; }
+.icn-magnifier-medium-left{ background-position: -252px 0; width: 16px; height: 16px; }
+.icn-magnifier-medium{ background-position: -273px 0; width: 16px; height: 16px; }
+.icn-magnifier{ background-position: -294px 0; width: 16px; height: 16px; }
+.icn-mail-medium-open{ background-position: -315px 0; width: 16px; height: 16px; }
+.icn-mail{ background-position: -336px 0; width: 16px; height: 16px; }
+.icn-plus-white{ background-position: -357px 0; width: 16px; height: 16px; }
+.icn-plus{ background-position: -378px 0; width: 16px; height: 16px; }
+
+
+
+
+
+
+

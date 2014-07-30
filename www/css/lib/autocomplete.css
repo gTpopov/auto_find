@@ -1,0 +1,71 @@
+@charset "utf-8";
+/* CSS Document */
+
+/******** STYLE FOR PAGE FIND.TPL *********/
+.ac_over {
+	background:#F3F3F3;
+	color:#5B5B5B;
+	cursor:pointer;
+}
+
+.ac_input {}
+
+.ac_results ul {
+	border:1px solid #CCC;
+	list-style:none;
+	margin:0;
+	padding:0;
+	background:#FFF;
+	font-size:12px;
+	color:#737373;
+	/*width:50%;
+    height: 217px;*/
+    overflow: scroll;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.ac_results ul li {
+	padding:7px 0 7px 15px;
+	border-bottom:1px dotted #E6E6E6;
+    cursor: default;
+    position: relative;
+}
+.ac_results ul li:hover {
+	color:#5B5B5B;
+}
+.ac_results ul li a {
+    text-decoration: none;
+    cursor: default;
+}
+.ac_loading {
+	background: #FFF url('/images/_upFiles.gif') no-repeat right 2px;
+}
+.ac_results iframe {
+	display:none;/*sorry for IE5*/
+	display/**/:block;/*sorry for IE5*/
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:-1;
+	filter:mask();
+	width:3000px;
+	height:3000px;
+}
+
+span.qnt {
+    font-size:11px;
+    position: absolute;
+    right: 10px;
+
+}
+
+
+
+
+
+
+
+
+
+
+

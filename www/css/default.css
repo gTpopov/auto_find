@@ -1,0 +1,255 @@
+body, html {
+    /*text-shadow: 0 1px #FEFEFE;*/
+    color: #7F7F7F;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif !important;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: 300;
+}
+a {
+    color: inherit;
+    text-decoration: underline;
+}
+.container-fluid {
+    background: #ffffff;
+    background: linear-gradient(to top, #ffffff, #f8f8f8);
+    padding-top: 20px;
+}
+.navbar{
+    padding: 0 !important;
+    margin-bottom: 0;
+}
+.navbar .navbar-inner{
+    background-image: none;
+    color: #FFF;
+    background: linear-gradient(to top , #4E78C2, #325DA7) rgba(0, 0, 0, 0);
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#4E78C2', EndColorStr='#325DA7')"; /* IE8 */
+    border: none;
+    box-shadow: 0 0 2px #999;
+    border-radius: 0 !important;
+    margin: 0;
+}
+
+.navbar .navbar-inner a {
+    color: rgb(248, 248, 248);
+    text-shadow: none;
+}
+.brand {
+    text-decoration: none;
+}
+.navbar .navbar-inner .nav a{
+    color: #E1E5F2;
+    font-size: 12px;
+    text-shadow: none;
+    -webkit-transition: background-color .4s;
+    -ms-transition: background-color .4s;
+    -o-transition: background-color .4s;
+    -moz-transition: background-color .4s;
+    transition: background-color .4s; /* без префикса - на будущее */
+}
+.navbar .navbar-inner .nav a:hover{
+    color: #FFF;
+    background-color: rgba(255,255,255,.1);
+}
+.navbar .navbar-inner .nav a:active{
+    color: #FFF;
+    background-color: rgba(0,0,0,.2);
+}
+.navbar .navbar-inner #buttonSlideNavMobile {
+    background-color: rgba(255,255,255,.2);
+    background-image: none;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 2px;
+    box-shadow: none;
+}
+.navbar .navbar-inner #buttonSlideNavMobile:active{
+    background-color: rgba(255,255,255,.5);
+}
+.navbar .navbar-inner .icon-bar{
+    background-color: #DDD;
+    box-shadow: none !important;
+}
+.navbar .navbar-inner .nav .active a{
+    background-image: none;
+    background-color: rgba(0, 0, 0, 0.15);
+}
+#buttonSlideNavMobile{
+    background-color: #FFF;
+}
+
+/*** Error style ***/
+.errorPage {
+    text-align: center;
+    margin: 3em 0;
+    background: url("/images/error.png") no-repeat center center;
+    height: 300px;
+}
+.errorPage h2 {
+    font-size: 30px;
+    font:400 43px/22px "Helvetica Neue","HelveticaNeue",Helvetica,sans-serif ;
+    font-weight: 100;
+}
+.errorPage h2 span {
+    font-size: 75px;
+}
+/*
+::-webkit-input-placeholder {
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+}
+:-moz-placeholder {
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+}
+:-ms-input-placeholder {
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+}
+*/
+
+/*** language ***/
+.container ul.language {
+    list-style: none;
+    margin:0;
+    padding:0;
+    font-size: 11px;
+}
+.container ul.language li {
+    float: right;
+    margin: 10px 0 0 5px;
+}
+.container ul.language li a {
+    text-decoration: none;
+}
+.container ul.language li a:hover {
+    text-decoration: underline;
+}
+
+/*** Style for footer ***/
+footer {
+    margin-top: 35px;
+    padding: 15px 10px;
+    border-top: 1px solid #DDDDDD;
+}
+footer .copy {
+    font-size: 12px;
+}
+
+
+@media (max-width: 480px), (max-width: 767px){
+    .brand{
+        font-size: 36px !important;
+        margin-top: 8px !important;
+    }
+    .navbar .navbar-inner{
+        padding-bottom: 8px;
+    }
+    .navbar .navbar-inner a{
+        color: #FFF !important;
+    }
+    .navbar .navbar-inner .nav a{
+        color: #FFF !important;
+        font-weight: 500;
+    }
+    .navbar .navbar-inner .nav a:hover{
+        background-color: rgba(0,0,0,.09) !important;
+        background-image: none;
+    }
+    .navbar .navbar-inner .nav .active a{
+        background-image: none;
+        background-color: rgba(0,0,0,.02);
+    }
+    .nav{
+        margin-top: 10px !important;
+    }
+    #categories{
+        border-radius: 0;
+        border-bottom: 1px dashed #DDD;
+    }
+    .catList li{
+        font-size: 16px;
+        margin: 15px 0;
+    }
+    #categories h3{
+        margin-top: 0;
+        padding-top: 10px;
+    }
+    .catList{
+        margin-top: 4px;
+        list-style-type: none;
+        margin-left: 23px;
+        padding-bottom: 4px;
+    }
+    .navbar .navbar-inner .brand{
+        margin-top: -1px;
+    }
+    .line-search{
+        width: 90%;
+        padding-bottom: 1px;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    .line-search #searchMain{
+        padding-right: 10%;
+        font-size: 18px;
+        background-position: right   5px;
+        padding-top: 8px;
+    }
+    .teasers_holder .teaser {
+        margin-bottom: 5px;
+        box-shadow: 0 10px 13px -10px #DDD;
+    }
+    footer{
+        display: none;
+    }
+    .container ul.language li {
+        margin: 0 0 0 5px;
+    }
+    /*
+    ::-webkit-input-placeholder {
+        -webkit-font-smoothing: antialiased;
+        -moz-font-smoothing: antialiased;
+        -o-font-smoothing: antialiased;
+    }
+    :-moz-placeholder {
+        -webkit-font-smoothing: antialiased;
+        -moz-font-smoothing: antialiased;
+        -o-font-smoothing: antialiased;
+    }
+    :-ms-input-placeholder {
+        -webkit-font-smoothing: antialiased;
+        -moz-font-smoothing: antialiased;
+        -o-font-smoothing: antialiased;
+    }*/
+
+}
+@media (min-width: 768px) and (max-width: 979px) {
+    .line-search #searchMain{
+        padding-left:3%;
+    }
+    footer{
+        display: none;
+    }
+    /*
+    ::-webkit-input-placeholder {
+        -webkit-font-smoothing: antialiased;
+        -moz-font-smoothing: antialiased;
+        -o-font-smoothing: antialiased;
+    }
+    :-moz-placeholder {
+        -webkit-font-smoothing: antialiased;
+        -moz-font-smoothing: antialiased;
+        -o-font-smoothing: antialiased;
+    }
+    :-ms-input-placeholder {
+        -webkit-font-smoothing: antialiased;
+        -moz-font-smoothing: antialiased;
+        -o-font-smoothing: antialiased;
+    }*/
+
+}

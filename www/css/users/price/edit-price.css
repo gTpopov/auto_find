@@ -1,0 +1,196 @@
+ul.styleFon {
+    border-top: 1px solid #dadada;
+}
+ul.unstyled {
+    padding-bottom: 0;
+}
+ul.list-items {
+    font-size: 12px;
+}
+ul.list-items .items li {
+    border-bottom: 1px solid #dedede;
+    border-top: 1px solid #ffffff;
+    border-left: 1px solid #ffffff;
+    border-right: 1px solid #ffffff;
+    padding: 0 10px 5px 0;
+    margin-bottom: 3px;
+}
+ul.list-items li a {
+    text-decoration: none;
+    display: block;
+    color: #333;
+}
+ul.list-items h5 {
+    padding: 0;
+    margin: 5px 0;
+    font-weight: bold;
+}
+ul.list-items h5 span {font-weight: normal;}
+ul.list-items h5 a.btn-link {
+    font-weight: normal;
+    font-size: 12px;
+}
+ul.list-items .summary {
+    margin: 0;
+    padding: 5px 10px;
+    text-align: left;
+    color: #222;
+    background: #eee;
+    border-left: 1px solid #dadada;
+    border-right: 1px solid #dadada;
+}
+ul.list-items .summary,
+ul.list-items h5 {
+    position: relative;
+}
+ul.list-items .sorter ul li {
+    float: right;
+}
+ul.list-items .sorter ul li a {
+    font-size: 11px;
+    color: #0075ae;
+}
+ul.list-items .summary .btn-mini { padding: 1px 3px; }
+
+ul.list-items #yw0 .summary {
+    border-bottom: 1px solid #DEDEDE;
+    padding: 0 5px;
+    font-size: 11px;
+
+}
+
+#yw0 .summary { text-align: right; }
+.hidden {visibility: visible;}
+.block-lf .dropdown:hover { color: #222; }
+.block-lf .btn-primary :hover  { color: #fefefe; }
+
+ul.list-items .change-rate {
+    margin: 5px 0;
+    background: #fff;
+    border-radius: 2px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05) inset;
+    border: 1px solid #ccc;
+    padding: 10px;
+    color: #222;
+    display: none;
+}
+ul.list-items .change-rate h5 {
+    font-weight: normal;
+    margin: 0 0 5px 0;
+}
+ul.list-items .change-rate .input-small {
+    padding: 2px 2px;
+    width: 60px;
+    border-radius: 1px;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+ul.list-items .change-rate .list-valuta {
+    width: 120px;
+    font-size: 12px;
+    height: 27px;
+    border-radius: 1px;
+    margin-bottom: 5px;
+}
+
+
+/*** Style form edit data ***/
+.modal {
+    margin-left: -280px;
+    width: 560px;
+}
+.modal h4 span {
+    font-size: 12px;
+    font-weight: bold;
+}
+.modal p {
+    margin: 2px 0;
+    text-align: center;
+}
+.modal p input {
+    margin-bottom: 2px;
+    border-radius: 1px;
+    font-size: 12px;
+}
+.modal p select.list-valuta {
+    font-size: 12px;
+}
+.modal p.pull-left {
+    margin-left: 20px;
+}
+.modal-body {
+    padding-bottom: 5px;
+}
+.modal-body form .span-12 {
+    margin: 15px 0 5px 0;
+    text-align: center;
+    min-height: 20px;
+    background: url("/images/sprite-price.png") no-repeat scroll 41% -50px;
+}
+.modal-body form .span-12 a {
+    display: inline;
+    padding-right: 23px;
+}
+.modal .modal-footer {
+    font-size: 11px;
+    text-align: left;
+}
+/* Modal window ***/
+.modal.fade.in { top:10%; }
+
+
+.pagination ul > li.selected {
+    font-weight: bold;
+    color: #000000;
+}
+
+/* Landscape - phone */
+@media (max-width: 480px) {
+    ul.list-items .summary .btn-mini { padding: 0 3px; }
+    ul.list-items .tooltipContent { width: 220px; font-size: 11px; padding:8px; }
+    .pagination ul > li { padding: 0;}
+    .pagination ul > li > a {
+        font-size: 12px;
+        padding: 4px 7px;
+        margin: 0;
+    }
+    .modal p.pull-left {
+        float: none;
+        margin-left: 0;
+    }
+    .modal {
+        font-size: 12px;
+        width: 310px;
+        margin-left: -155px;
+        left: 50%;
+    }
+    .modal-body { padding: 5px}
+    .modal-body form,.modal-body p{
+        margin: 0;
+        padding: 0;
+    }
+    .modal-body form .span-12 {
+        text-align: center;
+        margin-top: 3px;
+        min-height: 5px;
+        background: none;
+    }
+    .modal-body form .span-12 a {
+        display: block;
+        background: url("/images/sprite-price.png") no-repeat scroll 38% -50px;
+        padding: 0;
+    }
+    .modal-footer { padding: 5px 10px; }
+    .modal.fade.in { top: 3%; }
+
+}
+
+
+
+
+
+
+
+
+
+

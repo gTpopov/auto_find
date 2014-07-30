@@ -1,0 +1,59 @@
+h3 {
+    margin: 0 0 10px 15px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #e2e2e2;
+}
+form {
+    margin: 0 0 0 15px;
+    width:260px;
+    padding: 0 15px;
+    border: 1px dotted #DDDDDD;
+}
+form .row { margin: 0;}
+form label { margin:7px 0 0 0; font-size: 12px;}
+form label span { color: #0044cc;}
+form .field {
+    border-radius: 1px;
+    width: 246px;
+    margin-bottom:0 ;
+    font-size: 12px;
+    color: #838383;
+}
+
+form .pull-right {
+    width: 260px;
+    margin: 10px 0 10px 0;
+    color: rgba(53, 98, 193, 0.75);
+}
+form .pull-right a {
+    font-size: 12px;
+    margin-right: 15px;
+}
+form .pull-right label {
+    display: inline;
+    font-size: 12px;
+}
+form .pull-right #LoginForm_remember_me {
+    margin: 0 0 0 5px;
+}
+form .errorMessage {
+    margin: 0;
+    color: #AF0000;
+    font-size: 11px;
+}
+form .buttons {
+    margin-top: 10px;
+    padding: 10px 0;
+}
+form .alert {margin: 10px 0 0 0;}
+form .alert-error .close {top: -32px;}
+
+
+
+
+
+
+
+
+
+

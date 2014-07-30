@@ -1,0 +1,322 @@
+.block-right {
+    border-left: 1px solid #c3c3c3;
+    padding: 0 10px;
+}
+
+/** it's for middle part*/
+.line-search{
+    background-color: #e7e7e9;
+    border-radius: 3px;
+    position: relative;
+}
+.line-search{
+    padding: 10px 10px 2px;
+}
+form{
+    margin-bottom: 0;
+}
+.line-search{
+    margin-bottom: 20px;
+}
+#line-form{
+    position: relative;
+}
+#searchMain{
+    padding-left: 3%;
+    background-image: url("/images/searchIcon.png");
+    background-repeat: no-repeat;
+    background-size: 24px;
+    background-position: 5px 5px;
+    border-radius: 0;
+}
+.search-main{
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 30px;
+    border-radius: 0;
+}
+
+/*** Style for presentation ***/
+.presentation {
+    margin: 50px 0 0 0;
+    text-shadow: 0 1px #FEFEFE;
+    /*background: url("/images/search.png") 0 100px no-repeat;
+    background-size: contain;
+    border: 1px solid #e0e0e0;
+    height: 400px;*/
+}
+.presentation h3 {
+    text-align: center;
+}
+.presentation p {
+    margin: 0 10px;
+    text-align: center;
+}
+.presentation .row-fluid {
+    margin-top: 30px;
+}
+.presentation .thumbnail {
+    /*box-shadow: 3px 5px 5px rgba(148, 148, 148, 0.50);*/
+}
+
+
+/*** style for result ***/
+#yw0 {
+    padding: 0;
+    margin: 0 10px 0 0;
+}
+h4.query-search {
+    border-top:1px solid #dbdbdd;
+    padding: 10px 0 0 10px;
+    text-align: left;
+}
+h4.query-search span {
+    color: #4c4c4c;
+    font-weight: 600;
+    border-bottom: 1px dotted #000000;
+    font-size: 16px;
+    cursor: help;
+}
+#yw0 table.items th {
+    text-align: left;
+    padding-left: 10px;
+    border-right: 1px solid #d1d1d1;
+    color: #f2f2f2;
+}
+#yw0 table.items th {
+    /*background: linear-gradient(to top, #0679B9, rgba(6, 121, 185, 0.56)) repeat scroll 0 0 rgba(0, 0, 0, 0);*/
+    background: linear-gradient(to top , #4E78C2, #325DA7) rgba(0, 0, 0, 0);
+    font-weight: normal;
+    line-height: 25px;
+}
+#yw0 table.items th a {
+    font-weight: normal;
+}
+
+#yw0 table.items td .btn {
+    text-decoration: none;
+    font-size: 1em;
+    color: #7F7F7F;
+}
+
+#yw0 table.items td {
+    text-shadow: 0 1px #FEFEFE;
+    padding: 15px 0 5px 10px;
+    vertical-align: top;
+}
+#yw0 table.items td b {
+    color: #393939;
+}
+#yw0 table.items tr.odd {
+    background: none repeat scroll 0 0 #f2f2f4;
+}
+#yw0 table.items tr.even {
+    background: none repeat scroll 0 0 #ffffff;
+}
+
+#yw0 table.items td .btn-more {
+    background: url("/images/information.png") no-repeat 5px 6px;
+    height: 30px;
+    padding-left: 23px;
+}
+#yw0 table.items td.empty {
+    text-align: center;
+    padding-left: 0;
+}
+#yw0 table.items td.empty:hover {
+    background: #FFFFFF;
+}
+#yw0 table.items td span.empty {
+    text-align: center;
+    font-style: normal;
+}
+#yw0 table.items td small {
+    /*color: #0679B9;*/
+    border-bottom: 1px dotted #0679B9;
+    font-size: 12px;
+    cursor: help;
+}
+#yw0 table.items td a.more {
+    text-decoration: none;
+    font-weight: bold;
+    color: #0679B9;
+    display: block;
+}
+#yw0 table.items td a.more:hover {
+    border-bottom: none;
+    color: inherit;
+}
+
+#yw0 .pagination {
+    text-align: left;
+    padding-left: 10px;
+}
+#yw0 .pagination li.hidden {
+    display: none;
+
+}
+#yw0 .pagination li.selected a {
+    cursor: default;
+    background: #F2F2F4;
+    font-weight: bold;
+    color: #000000;
+}
+
+/*** Style fo modal windows ***/
+
+#infoUser {
+    text-shadow: 0 1px #FEFEFE;
+    word-wrap: break-word;
+}
+/*** tab-1 ***/
+#infoUser .section-info, #infoUser .map-info {
+    border: 1px solid #e1e1e1;
+}
+#infoUser .user-info {
+    border-right: 1px solid #e1e1e1;
+}
+#infoUser .map-info {
+    height: 270px;
+    background: #afafaf;
+}
+#infoUser .tab-content h6 {
+    padding-left: 25px;
+    margin: 5px 0 5px 15px;
+}
+
+#infoUser .tab-content h6.company {
+    font-size: 16px;
+    border-bottom: 1px solid #E1E1E1;
+    padding-bottom: 5px;
+    margin-left: 10px;
+}
+#infoUser .tab-content h6.reiting-0 {
+    background: url("/images/icon_reiet-0.png") no-repeat 5px 1px;
+}
+#infoUser .tab-content h6.reiting-1 {
+    background: url("/images/icon_reiet-1.png") no-repeat 0 1px;
+}
+#infoUser .tab-content h6.reiting-2 {
+    background: url("/images/icon_reiet-2.png") no-repeat 0 1px;
+}
+#infoUser .tab-content h6.reiting-3 {
+    background: url("/images/icon_reiet-3.png") no-repeat 0 1px;
+}
+#infoUser .tab-content h6.reiting-4 {
+    background: url("/images/icon_reiet-4.png") no-repeat 0 1px;
+}
+#infoUser .tab-content h6.reiting-5 {
+    background: url("/images/icon_reiet-5.png") no-repeat 0 1px;
+}
+#infoUser .tab-content h6.full-name {
+    background: url("/images/user-black.png") no-repeat 0 -1px;
+}
+#infoUser .tab-content h6.phone {
+    background: url("/images/telephone-fax.png") no-repeat 0 1px;
+}
+#infoUser .tab-content h6.address {
+    background: url("/images/home.png") no-repeat 0 1px;
+}
+#infoUser .tab-content h6.mail {
+    background: url("/images/mail.png") no-repeat 0 1px;
+}
+#infoUser .tab-content h6.skype {
+    background: url("/images/skype.png") no-repeat 0 1px;
+}
+#infoUser .tab-content h6.site {
+    background: url("/images/globe--arrow.png") no-repeat 0 1px;
+}
+#infoUser .tab-content h6.deliver {
+    background: url("/images/lorry.png") no-repeat 0 1px;
+}
+
+/*** tab-2 ***/
+#infoUser .nav {
+    margin-bottom: 15px;
+}
+#infoUser .order-lf {
+    border-right: 1px solid #e1e1e1;
+}
+#infoUser #order .alert {
+    display: none;
+    font-size: 12px;
+    padding-left: 30px;
+    background: #DFF0D8 url("/images/icon-success.png") no-repeat 10px 8px;
+}
+#infoUser #order label {
+    font-size: 12px;
+    margin: 0;
+}
+#infoUser #order span.required {
+    color: #af0000;
+}
+#infoUser #order input.field {
+    border-radius: 0;
+    margin-bottom: 0;
+    height: 18px;
+    font-size: 12px;
+    width: 90%;
+}
+#infoUser #order select {
+    width: 95%;
+    border-radius: 0;
+    font-size: 12px;
+}
+#infoUser #order select option {
+    padding: 3px 0;
+}
+#infoUser #order textarea {
+    resize: none;
+    height: 70px;
+    width: 90%;
+    font-size: 12px;
+    border-radius: 0;
+    overflow-y: hidden;
+}
+#infoUser #order .errorMessage {
+    font-size: 11px;
+    color: #af0000;
+}
+
+/*** tab-3 ***/
+#infoUser #reviews {
+    font-size: 12px;
+}
+#infoUser .unstyled li {
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px dotted #d8d8d8;
+}
+#infoUser #reviews li small {
+    font-size: 11px;
+    color: #0044cc;
+    cursor: pointer;
+    text-decoration: underline;
+}
+#infoUser #reviews li small:hover {
+    text-decoration: none;
+}
+
+#infoUser #reviews .stars {
+    background: url("/images/stars.png") repeat-y scroll -2px -2px rgba(0, 0, 0, 0);
+    display: inline-block;
+    line-height: 16px;
+    text-indent: -1000px;
+    width: 88px;
+}
+
+#infoUser #reviews .stars-1 {background-position: -2px -22px;}
+#infoUser #reviews .stars-2 {background-position: -2px -45px;}
+#infoUser #reviews .stars-3 {background-position: -2px -70px;}
+#infoUser #reviews .stars-4 {background-position: -2px -93px;}
+#infoUser #reviews .stars-5 {background-position: -2px -117px;}
+
+#infoUser #reviews h5 {
+    margin: 0 0 0 15px;
+}
+
+
+
+
+
