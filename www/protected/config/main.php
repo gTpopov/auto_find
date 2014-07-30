@@ -71,8 +71,8 @@ return array(
 		'db'=>array(
 			'connectionString' => 'mysql:host=localhost;dbname=pricezapch',
 			'emulatePrepare' => true,
-			'username' => 'yuriy',
-			'password' => '1976',
+			'username' => 'root',
+			'password' => '',
 			'tablePrefix'=>'',
 			'attributes'=>array(
 				PDO::MYSQL_ATTR_LOCAL_INFILE =>true,

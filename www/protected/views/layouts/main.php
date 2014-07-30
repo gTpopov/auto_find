@@ -19,7 +19,7 @@
 
 <body>
 
-    <div class="navbar">
+    <nav class="navbar">
         <div class="navbar-inner">
             <a class="brand" href="/">Auto Find</a>
             <div class="container">
@@ -63,7 +63,7 @@
                 <?php $this->widget('LanguageSwitcherWidget'); ?>
             </div>
         </div>
-    </div>
+    </nav>
 
 
     <div class="container-fluid">

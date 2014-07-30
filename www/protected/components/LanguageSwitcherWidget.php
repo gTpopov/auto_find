@@ -10,7 +10,7 @@ class LanguageSwitcherWidget extends CWidget {
             $url = '/' . ($suffix ? trim($suffix, '_') . '/' : '') . $currentUrl;
             $links[] = CHtml::tag('li', array('class'=>$suffix), CHtml::link($name, $url));
         }
-        echo CHtml::tag('ul', array('class'=>'language'), implode("\n", $links));
+        echo CHtml::tag('ul', array('class'=>'language pull-right'), implode("\n", $links));
     }
 
 } 

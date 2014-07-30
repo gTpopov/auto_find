@@ -3126,3 +3126,81 @@ in D:\xampp\public_html\burenia\www\index.php (16)
 2014/07/29 21:22:01 [warning] [application] Не удалось присвоить небезопасный атрибут "availability" класса "EditPrice".
 in D:\xampp\public_html\burenia\www\protected\modules\users\controllers\AjpriceController.php (221)
 in D:\xampp\public_html\burenia\www\index.php (16)
+2014/07/30 23:14:33 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1045] Access denied for user 'yuriy'@'localhost' (using password: YES)' in /Applications/XAMPP/xamppfiles/htdocs/auto.dev/framework/yiilite.php:8427
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/auto.dev/framework/yiilite.php(8399): CDbConnection->open()
+#1 /Applications/XAMPP/xamppfiles/htdocs/auto.dev/framework/yiilite.php(8388): CDbConnection->setActive(true)
+#2 /Applications/XAMPP/xamppfiles/htdocs/auto.dev/framework/yiilite.php(1060): CDbConnection->init()
+#3 /Applications/XAMPP/xamppfiles/htdocs/auto.dev/framework/yiilite.php(1312): CModule->getComponent('db')
+#4 /Applications/XAMPP/xamppfiles/htdocs/auto.dev/framework/yiilite.php(7450): CApplication->getDb()
+#5 /Applications/XAMPP/xamppfiles/htdocs/auto.dev/framework/yiilite.php(8288): CActiveRecord->getDbConnection()
+#6 /Applications/XAMPP/xamppfiles/htdocs/auto.dev/framework/yiilite.php(7392): CActiveRecordMetaData->__construct(Object(Users))
+#7 /Applications/XAMPP/xamppfiles/htdocs/auto.dev/framework/yiilite.php(7221): CActiveRecord->getMetaData()
+#8 /Applications/XAMPP/xamppfiles/htdocs/auto.dev/www/protected/controllers/RegistryController.php(38): CActiveRecord->__construct()
+#9 /Applications/XAMPP/xamppfiles/htdocs/auto.dev/framework/yiilite.php(4058): RegistryController->actionIndex()
+#10 /Applications/XAMPP/xamppfiles/htdocs/auto.dev/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#11 /Applications/XAMPP/xamppfiles/htdocs/auto.dev/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#12 /Applications/XAMPP/xamppfiles/htdocs/auto.dev/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /Applications/XAMPP/xamppfiles/htdocs/auto.dev/framework/yiilite.php(1746): CController->run('index')
+#14 /Applications/XAMPP/xamppfiles/htdocs/auto.dev/framework/yiilite.php(1666): CWebApplication->runController('registry/index')
+#15 /Applications/XAMPP/xamppfiles/htdocs/auto.dev/framework/yiilite.php(1191): CWebApplication->processRequest()
+#16 /Applications/XAMPP/xamppfiles/htdocs/auto.dev/www/index.php(16): CApplication->run()
+#17 {main}
+REQUEST_URI=/registry/index.html
+HTTP_REFERER=http://auto.dev/agreement/index.html
+---
+2014/07/30 23:21:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "css/img/glyphicons-halflings.png".' in /Applications/XAMPP/xamppfiles/htdocs/auto.dev/framework/yiilite.php:1750
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/auto.dev/framework/yiilite.php(1666): CWebApplication->runController('css/img/glyphic...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/auto.dev/framework/yiilite.php(1191): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/auto.dev/www/index.php(16): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/img/glyphicons-halflings.png
+HTTP_REFERER=http://auto.dev/registry/index.html
+---
+2014/07/30 23:26:21 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "CActiveForm.class".' in /Applications/XAMPP/xamppfiles/htdocs/auto.dev/framework/yiilite.php:638
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/auto.dev/framework/yiilite.php(5930): CComponent->__set('class', 'span-12')
+#1 /Applications/XAMPP/xamppfiles/htdocs/auto.dev/framework/yiilite.php(3427): CWidgetFactory->createWidget(Object(RegistryController), 'CActiveForm', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/auto.dev/framework/yiilite.php(3450): CBaseController->createWidget('CActiveForm', Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/auto.dev/www/protected/views/registry/index.php(25): CBaseController->beginWidget('CActiveForm', Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/auto.dev/framework/yiilite.php(3419): require('/Applications/X...')
+#5 /Applications/XAMPP/xamppfiles/htdocs/auto.dev/framework/yiilite.php(3398): CBaseController->renderInternal('/Applications/X...', Array, true)
+#6 /Applications/XAMPP/xamppfiles/htdocs/auto.dev/framework/yiilite.php(3822): CBaseController->renderFile('/Applications/X...', Array, true)
+#7 /Applications/XAMPP/xamppfiles/htdocs/auto.dev/framework/yiilite.php(3790): CController->renderPartial('index', Array, true)
+#8 /Applications/XAMPP/xamppfiles/htdocs/auto.dev/www/protected/controllers/RegistryController.php(306): CController->render('index', Array)
+#9 /Applications/XAMPP/xamppfiles/htdocs/auto.dev/framework/yiilite.php(4058): RegistryController->actionIndex()
+#10 /Applications/XAMPP/xamppfiles/htdocs/auto.dev/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#11 /Applications/XAMPP/xamppfiles/htdocs/auto.dev/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#12 /Applications/XAMPP/xamppfiles/htdocs/auto.dev/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /Applications/XAMPP/xamppfiles/htdocs/auto.dev/framework/yiilite.php(1746): CController->run('index')
+#14 /Applications/XAMPP/xamppfiles/htdocs/auto.dev/framework/yiilite.php(1666): CWebApplication->runController('registry/index')
+#15 /Applications/XAMPP/xamppfiles/htdocs/auto.dev/framework/yiilite.php(1191): CWebApplication->processRequest()
+#16 /Applications/XAMPP/xamppfiles/htdocs/auto.dev/www/index.php(16): CApplication->run()
+#17 {main}
+REQUEST_URI=/registry/index.html
+HTTP_REFERER=http://auto.dev/enter/index.html
+---
+2014/07/30 23:26:25 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "CActiveForm.class".' in /Applications/XAMPP/xamppfiles/htdocs/auto.dev/framework/yiilite.php:638
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/auto.dev/framework/yiilite.php(5930): CComponent->__set('class', 'span-12')
+#1 /Applications/XAMPP/xamppfiles/htdocs/auto.dev/framework/yiilite.php(3427): CWidgetFactory->createWidget(Object(RegistryController), 'CActiveForm', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/auto.dev/framework/yiilite.php(3450): CBaseController->createWidget('CActiveForm', Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/auto.dev/www/protected/views/registry/index.php(25): CBaseController->beginWidget('CActiveForm', Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/auto.dev/framework/yiilite.php(3419): require('/Applications/X...')
+#5 /Applications/XAMPP/xamppfiles/htdocs/auto.dev/framework/yiilite.php(3398): CBaseController->renderInternal('/Applications/X...', Array, true)
+#6 /Applications/XAMPP/xamppfiles/htdocs/auto.dev/framework/yiilite.php(3822): CBaseController->renderFile('/Applications/X...', Array, true)
+#7 /Applications/XAMPP/xamppfiles/htdocs/auto.dev/framework/yiilite.php(3790): CController->renderPartial('index', Array, true)
+#8 /Applications/XAMPP/xamppfiles/htdocs/auto.dev/www/protected/controllers/RegistryController.php(306): CController->render('index', Array)
+#9 /Applications/XAMPP/xamppfiles/htdocs/auto.dev/framework/yiilite.php(4058): RegistryController->actionIndex()
+#10 /Applications/XAMPP/xamppfiles/htdocs/auto.dev/framework/yiilite.php(3570): CInlineAction->runWithParams(Array)
+#11 /Applications/XAMPP/xamppfiles/htdocs/auto.dev/framework/yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#12 /Applications/XAMPP/xamppfiles/htdocs/auto.dev/framework/yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /Applications/XAMPP/xamppfiles/htdocs/auto.dev/framework/yiilite.php(1746): CController->run('index')
+#14 /Applications/XAMPP/xamppfiles/htdocs/auto.dev/framework/yiilite.php(1666): CWebApplication->runController('registry/index')
+#15 /Applications/XAMPP/xamppfiles/htdocs/auto.dev/framework/yiilite.php(1191): CWebApplication->processRequest()
+#16 /Applications/XAMPP/xamppfiles/htdocs/auto.dev/www/index.php(16): CApplication->run()
+#17 {main}
+REQUEST_URI=/registry/index.html
+HTTP_REFERER=http://auto.dev/enter/index.html
+---

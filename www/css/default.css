@@ -1,7 +1,13 @@
-body, html {
-    /*text-shadow: 0 1px #FEFEFE;*/
+*{
     color: #7F7F7F;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -ms-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+}
+body{
+    cursor: default;
 }
 h1,h2,h3,h4,h5,h6{
     font-weight: 300;
@@ -39,13 +45,15 @@ a {
 }
 .navbar .navbar-inner .nav a{
     color: #E1E5F2;
-    font-size: 12px;
+    font-size: 13px;
     text-shadow: none;
     -webkit-transition: background-color .4s;
     -ms-transition: background-color .4s;
     -o-transition: background-color .4s;
     -moz-transition: background-color .4s;
     transition: background-color .4s; /* без префикса - на будущее */
+    padding: 11px 15px 9px;
+    text-decoration: underline;
 }
 .navbar .navbar-inner .nav a:hover{
     color: #FFF;
@@ -94,40 +102,17 @@ a {
 .errorPage h2 span {
     font-size: 75px;
 }
-/*
-::-webkit-input-placeholder {
-    -webkit-font-smoothing: antialiased;
-    -moz-font-smoothing: antialiased;
-    -o-font-smoothing: antialiased;
-}
-:-moz-placeholder {
-    -webkit-font-smoothing: antialiased;
-    -moz-font-smoothing: antialiased;
-    -o-font-smoothing: antialiased;
-}
-:-ms-input-placeholder {
-    -webkit-font-smoothing: antialiased;
-    -moz-font-smoothing: antialiased;
-    -o-font-smoothing: antialiased;
-}
-*/
 
 /*** language ***/
 .container ul.language {
     list-style: none;
     margin:0;
     padding:0;
-    font-size: 11px;
+    font-size: 13px;
 }
 .container ul.language li {
     float: right;
-    margin: 10px 0 0 5px;
-}
-.container ul.language li a {
-    text-decoration: none;
-}
-.container ul.language li a:hover {
-    text-decoration: underline;
+    margin: 11px 5px 0 5px;
 }
 
 /*** Style for footer ***/
@@ -140,6 +125,16 @@ footer .copy {
     font-size: 12px;
 }
 
+
+/* GUI */
+.field{
+    border-radius: 2px !important;
+    box-shadow: none !important;
+    padding-top: 5px !important;
+}
+.field:focus{
+    border-color: #0066cc !important;
+}
 
 @media (max-width: 480px), (max-width: 767px){
     .brand{
@@ -210,24 +205,7 @@ footer .copy {
     .container ul.language li {
         margin: 0 0 0 5px;
     }
-    /*
-    ::-webkit-input-placeholder {
-        -webkit-font-smoothing: antialiased;
-        -moz-font-smoothing: antialiased;
-        -o-font-smoothing: antialiased;
     }
-    :-moz-placeholder {
-        -webkit-font-smoothing: antialiased;
-        -moz-font-smoothing: antialiased;
-        -o-font-smoothing: antialiased;
-    }
-    :-ms-input-placeholder {
-        -webkit-font-smoothing: antialiased;
-        -moz-font-smoothing: antialiased;
-        -o-font-smoothing: antialiased;
-    }*/
-
-}
 @media (min-width: 768px) and (max-width: 979px) {
     .line-search #searchMain{
         padding-left:3%;
@@ -235,21 +213,4 @@ footer .copy {
     footer{
         display: none;
     }
-    /*
-    ::-webkit-input-placeholder {
-        -webkit-font-smoothing: antialiased;
-        -moz-font-smoothing: antialiased;
-        -o-font-smoothing: antialiased;
-    }
-    :-moz-placeholder {
-        -webkit-font-smoothing: antialiased;
-        -moz-font-smoothing: antialiased;
-        -o-font-smoothing: antialiased;
-    }
-    :-ms-input-placeholder {
-        -webkit-font-smoothing: antialiased;
-        -moz-font-smoothing: antialiased;
-        -o-font-smoothing: antialiased;
-    }*/
-
 }

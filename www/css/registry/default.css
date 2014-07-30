@@ -1,21 +1,23 @@
 h3 {
-    margin: 0 0 10px 15px;
-    padding-bottom: 5px;
+    padding: 15px 0 5px;
+    color: #222;
     border-bottom: 1px solid #e2e2e2;
 }
 form {
-    margin: 0 0 0 15px;
-    width:260px;
-    padding: 0 15px;
-    border: 1px dotted #DDDDDD;
+    margin: auto;
+    width: 340px;
+    padding: 0 15px 10px;
+    box-shadow: 0 -2px 30px -10px #666;
+    border-radius: 4px;
 }
-form .row { margin: 0;}
+form .row { margin: 0; position: relative}
 form .agreement {text-align: center; margin-top: 10px;}
-form label { margin:7px 0 0 0; font-size: 12px;}
-form label span { color: #0044cc;}
+form label { margin:7px 0 0 0; font-size: 14px; padding: 5px 2px; color: #222}
+form label span { color: #F00;}
 form .field {
     border-radius: 1px;
-    width: 246px;
+    width: 100%;
+    float: left;
     margin-bottom:0 ;
     font-size: 12px;
     color: #838383;
@@ -23,7 +25,7 @@ form .field {
 form .list-country {
     font-size: 12px;
     border-radius: 1px;
-    width: 257px;
+    width: 99%;
     margin: 0;
 }
 form .list-country option { margin: 5px 0;}
@@ -52,7 +54,16 @@ form .alert {margin: 10px 0 0 0;}
 form .alert-success .close {top: -52px;}
 form .alert-error .close {top: -32px;}
 
+#repairPass{
+    margin-top: 5px;
+    float: right;
+}
 
+#shadow{
+    margin: auto;
+    display: block;
+    width: 340px;
+}
 
 
 
